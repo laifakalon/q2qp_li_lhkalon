@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #f5f5dc;
+}
+
+nav {
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 12vh;
+    z-index: 5;
+    background-color: white;
+    font-family:Impact, Haettenschweiler;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 12vh;
+    z-index: 5;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 50px;
+    text-align: center;
+}
+  
+.a a{
+    font-size: 15px;
+    color: rgb(41, 34, 1);
+}
+.a {
+    height: 5vh;
+    width: 8vw;
+}
+
+
+nav p {
+    margin-right: 10vw;
+    font-size: 5vh;
+    color: #b2935d;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.a:hover {
+    background-color: #E8E8E8;
+}
+
+nav a{text-decoration: none; color: #ebd469;}
+
+#navclr {color: #ebd469; font-size: larger;}
+
+.bannertitle {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #b2935d;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 30vh;
+}
+
+.background {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 0.1fr;
+    column-gap: 5px;
+    padding: 1em; 
+    justify-content: center;
+    padding-top: 0.1em;
+}
+
+#txtbg {
+    font-size: xx-large;
+    padding-left: 20px;
+    display: flex;
+    justify-content: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #b2935d;
+}
+
+#achievements{
+    font-size: x-large;
+    padding: 3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: dark brown;
+}
+
+#initiatives {
+    background: url(media/feedwtb2.jpg);
+    width: 100vw;
+    height: 80vh;
+    background-size: 100%;
+}
+
+.titleinitiatives {
+    text-align: center;
+    background-color: #ebd469;
+    color: white;
+    width: 20vw;
+    height: 5vh;
+    border-radius: 15px;
+    padding: 0.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    margin-left: 500px;
+}
+
+.txtinitiatives {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color: #f6f3ef; 
+    font-size: 4vh;
+    margin-top: 5vh;
+    margin-left: 4vw;
+    margin-right: 40vw;
+    background-color: #b2935d;
+    border-radius: 10px;
+}
+
+.involvement {
+    display: flex;
+    align-items: center;
+}
+
+.titleinvolvement {
+    text-align: center;
+    background-color: #ebd469;
+    color: rgb(249, 249, 249);
+    width: 25vw;
+    height: 5vh;
+    border-radius: 15px;
+    padding: 0.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    margin-right: 2vw;
+    margin-top: 3vh;
+    margin-left: 500px;
+}
+
+.picinvolvement {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10vw;
+}
+
+.picinvolvement img {padding-top: 20px;
+}
+
+.txtinvolvement {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    display: flex;
+    justify-content: flex-start;
+    padding: 1em;
+}
+
+.fullscreen23 {
+    background-image: url(media/activity.png);
+    background-size: 80%;
+    height: 40vh;
+    background-position: 0.5vw;
+
+}
+
+.activity {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 3vh;
+}
+
+#picact img {height: 70vh;}
+#picact {padding-left: 2vw;}
+
+#txtact {
+    display: flex;
+    align-content: center;
+    padding-right: 1vw;
+    padding-left: 3vw;
+    text-align: right;
+    font-size: xx-large;
+    font-family: Futura;
+}
+
+
+#wwatitle {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center; 
+    font-size: xxx-large;
+    padding-top: 5vh;
+    color: #b2935d;
+
+}
+
+#wwatxt {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center; 
+    font-size: 4vh; 
+    padding-right: 10em;
+    padding-left: 10em;
+    padding-top: 10vh;
+    color: dark brown;
+}
+
+
+#mission {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 5em;
+    padding-right: 40em;
+    padding-left: 1em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#vision {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#vision .ms {
+    padding-top: 1em; 
+    text-align: center;}
+#mission .ms {
+    padding-bottom: 1em; 
+    text-align: center;}
+
+
+#share {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large; 
+    text-align: center; 
+    padding-top: 2vh;
+    color:#545454;
+}
+
+#email {text-decoration: underline;}
+
+.contact {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    padding-left: 2vw;
+}
+
+#partner {color: #ebd469;}
+#contribute {color: #b2935d;}
+#volunteer {color: #545454;}
+
+
+footer p {
+    margin-right: 50vw;
+    margin-left: 5vw;
+}
+
+footer {
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 13vh;
+    z-index: 5;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    display: flex;
+}
+
+
+.icon {
+    background: url(media/sprite3.png) no-repeat;
+	width: 50px;
+	height: 50px;
+    margin-right: 25px;
+}
+
+#twt {background-position: -66px -72px;}
+#ig {background-position: -290px -221px;}
+#fb {background-position: -439px -146px;}
+
+@keyframes intro {
+    from {transform: scale(0.5);}
+    to {transform: scale(1);}
+}
+
+@media screen and (max-width: 600px) {
+    .background {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+
+
+
+
+
